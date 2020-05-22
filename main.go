@@ -2,12 +2,11 @@ package main
 
 import (
 	"fmt"
+	"lru/cache"
 	"math/rand"
 	"strconv"
 	"sync"
 	"time"
-
-	"github.com/idle-ape/lrucache/cache"
 )
 
 var (
